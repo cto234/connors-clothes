@@ -1,0 +1,18 @@
+Home page
+    Big home image
+    Grid of clothes
+        On hover, show back
+        Can be sorted by size, color, etc
+
+items
+    Carousel of images
+    Description
+    Size, color, etc
+    Add to cart button
+
+Cart
+    Can add or remove items
+
+Misc:
+    Add fonts
+    Add Route to <Item /> in App.js (line 16)

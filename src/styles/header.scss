@@ -1,0 +1,30 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .logo-container img {
+    max-height: 90px; /* Adjust the height based on your design */
+  }
+  
+  .cart-container {
+    font-size: 1.5rem;
+  }
+  
+  .cart-container a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .cart {
+    max-width: 500px;
+    color: white;
+  }
+  
+  
