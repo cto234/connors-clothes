@@ -16,3 +16,10 @@ Cart
 Misc:
     Add fonts
     Add Route to <Item /> in App.js (line 16)
+
+COLORS
+Header Background: 010D80 (Dark Blue)
+Header Text: 77D4FC (Light blue)
+Page Background: F2EBD7 (Beige)
+Alternate Text Color: BACCD0 (Light blue/grey)
+Alternate Misc Color: F9CC0A (Yellow)
