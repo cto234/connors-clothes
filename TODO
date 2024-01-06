@@ -1,13 +1,11 @@
 Header
-    Change Logo
-    Change Color
 
 Home Page
-    Get better homepage image (shorter)
 
 Cart   
     Add popup message that says (added/removed from cart)
     Add total price and (fake) checkout button
+    Add little counter notif on cart icon to show how many are in there (like iphone notifs)
 
 Misc:
     Add fonts

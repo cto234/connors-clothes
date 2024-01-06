@@ -1,6 +1,6 @@
 import '../styles/home.scss'
 import React, { useState } from 'react';
-import homeImage from '../assets/images/home-image.jpeg'
+import thriftStore from '../assets/images/thrift-store.jpeg'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
@@ -36,9 +36,16 @@ const Home = ({clothes}) => {
 
     return (
         <>
+        {/* Home page banner */}
         <div className='home-image-container'>
-            <img className='home-image' src={homeImage} alt='shirts' />
+          <div className='overlay-text'>
+              <h2 className='about-us'>About Us</h2>
+              <p className='about'>Welcome! Here at Connor's Clothes, we are dedicated to providing a wide selection of used clothes that not only enhance your wardrobe but also contribute to a greener planet.</p>
+              <p className='about'> Join us on this journey towards a more sustainable future, where looking good and doing good go hand in hand.</p>
+          </div>
+          <img className='home-image' src={thriftStore} alt='shirts' />
         </div>
+
         {/*sorting buttons */}
         <div className='sorter-container'>
             <div className='sorter-option'>

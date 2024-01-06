@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Cart = ({ cartItems, removeFromCart }) => {
   if (cartItems.length === 0) {
-    return <div>Your cart is empty</div>;
+    return <div className='empty-message' >Your cart is empty</div>;
   }
 
   const handleRemoveFromCart = (item) => {
@@ -13,7 +13,7 @@ const Cart = ({ cartItems, removeFromCart }) => {
 
   return (
     <div>
-    <h2>Your Cart</h2>
+    <h2 className='your-cart' >Your Cart</h2>
     <ul>
         {cartItems.map((item, index) => (
         <li className='cart-item' key={index}>

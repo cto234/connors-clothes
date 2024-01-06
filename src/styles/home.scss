@@ -1,10 +1,39 @@
 .home-image-container {
-    width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  max-width: 800px; /* Adjust the width as needed */
 }
 
 .home-image {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.7;
+  filter: brightness(50%);
+}
+
+.about-us {
+  color: white; /* Adjust the text color */
+  font-size: 35px; /* Adjust the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adjust the shadow values */
+  text-align: center;
+  text-decoration: underline 2px;
+  text-underline-offset: 5px;
+}
+
+.about {
+  color: white; /* Adjust the text color */
+  font-size: 30px; /* Adjust the font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adjust the shadow values */
 }
 
 .clothing-grid {

@@ -2,6 +2,7 @@ import '../styles/header.scss'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import headerLogo from '../assets/images/header-logo.png'
 
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
         <header>
         <div className="logo-container">
             <Link to='/'>
-            <h1>Connor's Clothes</h1>
+            <img className='header-logo' src={headerLogo} alt='Logo' />
             </Link>
         </div>
 
