@@ -1,3 +1,3 @@
 # Connor's Clothes
 
-This is an ecommerce platform I'm working on to display my clothes. This is purely for myself in order to develop my skills at front end development, and is not meant to be functional in terms of actually selling items. That being said, besides payment, everything is to be fully operational. This will be my last big React project for a while, I'm going to move on to other frameworks after this one to broaden my skillet. I feel that once this is done I will be satisfied with my skill level in React.
+This is an ecommerce platform I'm working on to display my clothes. This is purely for myself in order to develop my skills at front end development, and is not meant to be functional in terms of actually selling items. That being said, besides payment, everything is to be fully operational. This will be my last big React project for a while, I'm going to move on to other frameworks after this one to broaden my skillset.
