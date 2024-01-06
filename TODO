@@ -1,21 +1,17 @@
-Home page
-    Big home image
-    Grid of clothes
-        On hover, show back
-        Can be sorted by size, color, etc
+Header
+    Change Logo
+    Change Color
 
-items
-    Carousel of images
-    Description
-    Size, color, etc
-    Add to cart button
+Home Page
+    Get better homepage image (shorter)
 
-Cart
-    Can add or remove items
+Cart   
+    Add popup message that says (added/removed from cart)
+    Add total price and (fake) checkout button
 
 Misc:
     Add fonts
-    Add Route to <Item /> in App.js (line 16)
+    STYLE!
 
 COLORS
 Header Background: 010D80 (Dark Blue)

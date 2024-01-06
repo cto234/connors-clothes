@@ -9,8 +9,9 @@
 
 .clothing-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(285px, 1fr));
     gap: 20px;
+    margin: 10px;
   }
   
   .clothing-item-link {
@@ -19,10 +20,7 @@
   }
   
   .clothing-item {
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
+    margin-bottom: 50px;
     text-align: center;
   }
 
@@ -44,3 +42,41 @@
     margin: 5px 0;
   }
   
+  .sorter-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #bababa; 
+    border-bottom: 1px solid #bababa;
+    padding: 10px; 
+  }
+
+  .sorter-container select {
+    appearance: none; /* Remove default styles */
+    -webkit-appearance: none;
+    border: none; /* Remove border */
+    background: transparent; /* Make background transparent */
+    padding: 5px; /* Add padding for spacing */
+    padding-right: 0;
+    cursor: pointer; /* Show pointer cursor */
+    font-size: 14px; /* Adjust font size */
+  }
+  
+  /* Add a chevron icon for the select dropdown */
+  .sorter-container select::after {
+    content: '\25BC'; /* Unicode character for downward-pointing triangle */
+   margin-left: 5px; /* Adjust margin for spacing */
+  }
+  
+  /* Style for the dropdowns inside sorter-container */
+  .sorter-container select:focus {
+    outline: none; /* Remove focus outline */
+  }
+
+  .sorter-option {
+    margin-right: 20px;
+  }
+  
+  .filter-chevron {
+    margin-left: 11px;
+  }

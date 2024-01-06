@@ -1,0 +1,44 @@
+.cart-item {
+    display: flex;
+    max-width: 90%;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .cart-item-content {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+  }
+  
+  .cart-item-image {
+    max-width: 100px; /* Adjust the maximum image width as needed */
+    margin-right: 10px;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+  }
+  
+  .cart-item-name {
+    margin: 0;
+  }
+  
+  .cart-item-price {
+    margin: 0;
+  }
+  
+  .cart-item-size {
+    margin: 0;
+  }
+  
+  .cart-item button {
+    margin-left: auto; /* Push the button to the right */
+  }
+  
+  /* Add this style to remove the underlines from the link */
+  .clothing-item-link {
+    text-decoration: none;
+  }
+  
