@@ -8,7 +8,7 @@ const Item = ({ clothes, addToCart }) => {
   const item = clothes.find((b) => b.slug === slug);
 
   if (!item) {
-    return <div>Item not found</div>;
+    return <div className='empty-message'>Item not found</div>;
   }
 
   const handleAddToCart = () => {

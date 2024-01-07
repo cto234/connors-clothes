@@ -5,22 +5,29 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import headerLogo from '../assets/images/header-logo.png'
 
 
-const Header = () => {
-    return(
-        <header>
+const Header = ({ cartCount }) => {
+    return (
+      <header>
         <div className="logo-container">
-            <Link to='/'>
+          <Link to='/'>
             <img className='header-logo' src={headerLogo} alt='Logo' />
-            </Link>
+          </Link>
         </div>
-
+  
         <div className="cart-container">
-            <Link to="/cart">
-            <FontAwesomeIcon icon={faCartShopping} className='cart'/> 
-            </Link>
+          <Link to="/cart">
+            <FontAwesomeIcon icon={faCartShopping} className='cart' />
+            {/* Display cart count next to the cart icon */}
+            {cartCount > 0 && (
+              <div className="cart-count">
+                {cartCount}
+              </div>
+            )}
+          </Link>
         </div>
-        </header>
-  );
-};
+      </header>
+    );
+  };
+  
 
 export default Header;

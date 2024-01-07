@@ -2,13 +2,31 @@ import '../styles/cart.scss'
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Cart = ({ cartItems, removeFromCart }) => {
+
+const Cart = ({ cartItems, removeFromCart, clearCart }) => {
   if (cartItems.length === 0) {
     return <div className='empty-message' >Your cart is empty</div>;
   }
 
   const handleRemoveFromCart = (item) => {
     removeFromCart(item);
+  };
+
+  const getTotal = (cartItems) => {
+    const totalPrice = cartItems.reduce((accumulator, currentObject) => {
+      // Check if the current object has a height property
+      if (currentObject && typeof currentObject.price === 'number') {
+        return accumulator + currentObject.price;
+      }
+  
+      return accumulator;
+    }, 0);
+  
+    return totalPrice;
+  };
+
+  const handleCheckout = () => {
+    clearCart();
   };
 
   return (
@@ -33,6 +51,10 @@ const Cart = ({ cartItems, removeFromCart }) => {
         </li>
         ))}
     </ul>
+    <h2 className='total'>Total: ${getTotal(cartItems)}</h2>
+    <Link to="/checkout" className="checkout-link">
+      <button className="checkout-button" onClick={handleCheckout}>Checkout</button>
+    </Link>
     </div>
 
   );

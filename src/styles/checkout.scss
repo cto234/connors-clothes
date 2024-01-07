@@ -1,0 +1,19 @@
+.thanks-message {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    margin-top: 10%;
+  }
+  
+  .logo {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container height */
+  }
+  

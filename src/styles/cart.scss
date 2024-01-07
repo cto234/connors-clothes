@@ -51,3 +51,21 @@
     text-align: center;
     margin-top: 15%;
   }
+
+  .total {
+    text-align: right;
+    margin-right: 9%;
+    padding: 10px;
+  }
+
+  .checkout-link {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+  }
+  
+  .checkout-button {
+    /* Add any additional styling for the button */
+  }
+  
