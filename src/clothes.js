@@ -19,6 +19,13 @@ const images13 = importAllImages(require.context('./assets/LLBeanShirt/', false,
 const images14 = importAllImages(require.context('./assets/cutoffShirt/', false, /\.(jpeg)$/));
 const images15 = importAllImages(require.context('./assets/brownCarharttPants/', false, /\.(jpeg)$/));
 const images16 = importAllImages(require.context('./assets/alexGSweatshirt/', false, /\.(jpeg)$/));
+const images17 = importAllImages(require.context('./assets/carharttJacket/', false, /\.(jpeg)$/));
+const images18 = importAllImages(require.context('./assets/greyJeans/', false, /\.(jpeg)$/));
+const images19 = importAllImages(require.context('./assets/pumaJersey/', false, /\.(jpeg)$/));
+const images20 = importAllImages(require.context('./assets/yellowShirt/', false, /\.(jpeg)$/));
+const images21 = importAllImages(require.context('./assets/hanesThermal/', false, /\.(jpeg)$/));
+
+
 
 
 
@@ -166,7 +173,52 @@ const clothes = [
         size: 'L',
         price: 80,
         slug: 'alex-g-sweatshirt'
-    }
+    },
+    {
+        id: 17,
+        name: 'Carhartt Work Jacket',
+        description: 'Black, blanket-lined Carhartt work jacket. Barely worn and in near perfect condition. Very warm and great for the winter.',
+        photos: images17,
+        size: 'L',
+        price: 80,
+        slug: 'carhartt-jacket'
+    },
+    {
+        id: 18,
+        name: 'Grey Levi\'s Jeans',
+        description: 'Grey Levi\'s 501 straight-leg jeans. In good condition, only slightly worn and with a small hole on the right leg as pictured.',
+        photos: images18,
+        size: '34',
+        price: 40,
+        slug: 'grey-jeans'
+    },
+    {
+        id: 19,
+        name: 'Puma Jersey',
+        description: '2000\'s Puma brand, white and green soccer jersey. Really cool design. Slightly worn, but generally in good condition except for some stains on the left sleeve as pictured.',
+        photos: images19,
+        size: 'M',
+        price: 20,
+        slug: 'puma-jersey'
+    },
+    {
+        id: 20,
+        name: 'Vintage Graphic T-Shirt',
+        description: 'Cool vintage yellow t-shirt from around the 1990\'s. Light and thin material. From some kind of summer program for kids.',
+        photos: images20,
+        size: 'M',
+        price: 30,
+        slug: 'yellow-shirt'
+    },
+    {
+        id: 21,
+        name: 'Hanes Thermal Shirt',
+        description: 'Hanes brand waffle knit, long sleeve thermal shirt from around the 1990\'s. Nice and warm, great for layering in cold weather.',
+        photos: images21,
+        size: 'M',
+        price: 25,
+        slug: 'hanes-thermal'
+    },
 ]
 
 export default clothes;
