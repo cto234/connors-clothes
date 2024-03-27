@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/connors-clothes/static/css/main.dbc26e67.css",
+    "main.js": "/connors-clothes/static/js/main.61ac2b87.js",
+    "static/js/787.02b78884.chunk.js": "/connors-clothes/static/js/787.02b78884.chunk.js",
+    "static/media/4.jpeg": "/connors-clothes/static/media/4.6a4cc71203f5d1110f46.jpeg",
+    "static/media/3.jpeg": "/connors-clothes/static/media/3.eaf8946f92240a87f82b.jpeg",
+    "static/media/5.jpeg": "/connors-clothes/static/media/5.d2fc70fd2e933be88b16.jpeg",
+    "static/media/2.jpeg": "/connors-clothes/static/media/2.f6a65857c2bf56eb5d27.jpeg",
+    "static/media/1.jpeg": "/connors-clothes/static/media/1.2fabbaedd21c768699e6.jpeg",
+    "static/media/6.jpeg": "/connors-clothes/static/media/6.f7a914f1413187c37b84.jpeg",
+    "static/media/Nunito-VariableFont_wght.ttf": "/connors-clothes/static/media/Nunito-VariableFont_wght.c0f0807a40aebdc41b40.ttf",
+    "static/media/image3.jpeg": "/connors-clothes/static/media/image3.39c55770919e772d80bb.jpeg",
+    "static/media/image1.jpeg": "/connors-clothes/static/media/image1.f21e439459e9d0535c40.jpeg",
+    "static/media/thrift-store.jpeg": "/connors-clothes/static/media/thrift-store.c52a3011f7d4c46fcec0.jpeg",
+    "static/media/image2.jpeg": "/connors-clothes/static/media/image2.a4c08a72403458842676.jpeg",
+    "static/media/header-logo.png": "/connors-clothes/static/media/header-logo.62185eb9b99293c31961.png",
+    "index.html": "/connors-clothes/index.html",
+    "main.dbc26e67.css.map": "/connors-clothes/static/css/main.dbc26e67.css.map",
+    "main.61ac2b87.js.map": "/connors-clothes/static/js/main.61ac2b87.js.map",
+    "787.02b78884.chunk.js.map": "/connors-clothes/static/js/787.02b78884.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbc26e67.css",
+    "static/js/main.61ac2b87.js"
+  ]
+}
