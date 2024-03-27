@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/connors-clothes/static/css/main.dbc26e67.css",
-    "main.js": "/connors-clothes/static/js/main.61ac2b87.js",
+    "main.js": "/connors-clothes/static/js/main.bbdb2a36.js",
     "static/js/787.02b78884.chunk.js": "/connors-clothes/static/js/787.02b78884.chunk.js",
     "static/media/4.jpeg": "/connors-clothes/static/media/4.6a4cc71203f5d1110f46.jpeg",
     "static/media/3.jpeg": "/connors-clothes/static/media/3.eaf8946f92240a87f82b.jpeg",
@@ -17,11 +17,11 @@
     "static/media/header-logo.png": "/connors-clothes/static/media/header-logo.62185eb9b99293c31961.png",
     "index.html": "/connors-clothes/index.html",
     "main.dbc26e67.css.map": "/connors-clothes/static/css/main.dbc26e67.css.map",
-    "main.61ac2b87.js.map": "/connors-clothes/static/js/main.61ac2b87.js.map",
+    "main.bbdb2a36.js.map": "/connors-clothes/static/js/main.bbdb2a36.js.map",
     "787.02b78884.chunk.js.map": "/connors-clothes/static/js/787.02b78884.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbc26e67.css",
-    "static/js/main.61ac2b87.js"
+    "static/js/main.bbdb2a36.js"
   ]
 }
